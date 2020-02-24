@@ -1,0 +1,58 @@
+.sectionAboutMe{
+    display: flex;
+    background-color: #33ff99;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.aboutMe{
+    display: flex;
+    width: 74%;
+    height: 75%;
+    border: 1px solid;
+    justify-content: space-between;
+}
+.item{
+    height: 100%;
+    width: 100%;
+    background-color: #999;
+}
+.aboutme span{
+    width: 256px;
+    height: 86px;
+    display: block;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 576px) {
+        .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .aboutMe {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            flex-direction: column;
+            border: 1px solid;
+            justify-content: space-between;
+        }
+
+        .aboutMe span {
+            width: 190px;
+            height: 170px;
+            display: block;
+            margin-top: 25px;
+            margin-left: 37px;
+        }
+
+        .item {
+            height: 100%;
+            width: 95%;
+            margin-right: 72px;
+            background-color: #999;
+            margin: 0 auto;
+        }
+    }
