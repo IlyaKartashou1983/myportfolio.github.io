@@ -9,12 +9,10 @@ const MyProjects = () => {
                <div className={c.myProjects_header}>
                     <span>Мои работы</span>
                 </div>
-                <div className={c.examples}>
-                    <div className={c.example}>
-                        <MyProject />
-                    </div>
 
-                </div>
+                        <MyProject />
+                        <MyProject />
+
             </div>
         </div>
     )

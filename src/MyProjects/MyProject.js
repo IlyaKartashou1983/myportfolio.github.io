@@ -3,9 +3,11 @@ import c from "./MyProjects.module.css"
 
 const MyProject = () => {
     return (
-       <div>
+        <div className={c.examples}>
+            <div className={c.example}>
            Картинка
        </div>
+        </div>
     )
 }
 
