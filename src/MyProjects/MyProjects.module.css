@@ -1,4 +1,4 @@
-.section3{
+.sectionProjects{
     background-color:#9933ff;
     display: flex;
     justify-content: center;
@@ -28,8 +28,9 @@
 }
 .example{
     height: 100%;
-    width: 40%;
+    width: 100%;
     background-color:white;
+    border: 1px solid;
 }
 .myProjects_header span{
     text-align: center;
