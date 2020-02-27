@@ -1,54 +1,56 @@
 .sectionProjects{
     background-color:#9933ff;
-    display: flex;
-    justify-content: center;
     align-items: center;
-    height: 90vh;
+ /*   border: 1px solid;
+    justify-content: space-between;
+    flex-wrap: wrap;*/
+    display: flex;
+    flex-direction: column;
 }
+
 .myProjects{
     display: flex;
-    width: 75%;
-    height: 73%;
-    border: 1px solid;
-    flex-direction: column;
     justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.myProjects_header{
-    width: 100%;
+
+/*.myProjects_header{
+   !* width: 100%;
     height: 34%;
-    border: 1px solid;
-}
-.examples{
+    border: 1px solid;*!
+}*/
+/*.examples{
     display: flex;
     flex-direction:row;
     justify-content: space-between;
     height: 75%;
     width: 100%;
     background-color: #999;
-}
-.example{
-    height: 100%;
-    width: 100%;
+}*/
+.example_item{
+    height: 350px;
+    width: 400px;
     background-color:white;
-    border: 1px solid;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
 }
-.myProjects_header span{
+/*.myProjects_header span{
     text-align: center;
-    display: block;
-}
+    display: block;*/
+
 @media screen and (max-width: 576px) {
 
 
     .myProjects {
         width: 100%;
-        height: 100%;
+
     }
 
-    .myProjects_header {
-        height: 10%;
-    }
+
     .examples {
-        height: 90%;
+
         width: 100%;
     }
 

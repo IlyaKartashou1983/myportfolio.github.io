@@ -4,17 +4,18 @@ import MyProject from "./MyProject";
 
 const MyProjects = () => {
     return (
-        <div className={c.sectionProjects}>
-            <div className={c.myProjects}>
-               <div className={c.myProjects_header}>
-                    <span>Мои работы</span>
+        <div>
+            <div className={c.sectionProjects}>
+                <span>Мои работы</span>
+                <div className={c.myProjects}>
+
+
+                    <MyProject/>
+                    <MyProject/>
                 </div>
-
-                        <MyProject />
-                        <MyProject />
-
             </div>
         </div>
+
     )
 }
 
