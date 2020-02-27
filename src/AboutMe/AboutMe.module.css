@@ -10,7 +10,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
+
 .hello{
     display: flex;
     flex-direction: column;
@@ -18,7 +20,7 @@
 }
 .item{
     height: 380px;
-    width: 380px;
+    width: 470px;
     background-color: #999;
     display: flex;
 }
@@ -38,6 +40,7 @@
         .aboutMe {
             
             width: 100%;
+            justify-content: center;
           /*  height: 100%;
             flex-direction: column;
             border: 1px solid;
