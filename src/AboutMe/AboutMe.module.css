@@ -13,17 +13,20 @@
 }
 
 .hello{
+    font-weight: bold;
     display: flex;
     flex-direction: column;
-
+    font-size: 20px;
+    color: aqua;
 }
+
+
 .item{
-    height: 380px;
-    width: 470px;
-    background: url('https://avatars.mds.yandex.net/get-pdb/2322521/ff085d1c-9f37-47ff-8017-ab9c998032e9/s375') no-repeat center center ;
-    background-size: cover;
+    height: 400px;
+    width: 400px;
+    background: url('https://avatars2.githubusercontent.com/u/56537259?s=400&u=0eca59ec5b421b0e217d2c69dee01f2c6713d539&v=4') no-repeat center center;
     display: flex;
-    border-radius: 7px;
+    border-radius: 87px;
 }
 .aboutMe span{
     width: 200px;
