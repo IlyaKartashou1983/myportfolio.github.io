@@ -1,5 +1,7 @@
 .app{
-    background-color: #666;
+   /* background-color: #666;*/
+    background: url('https://image.shutterstock.com/z/stock-photo-hi-res-grunge-textures-and-backgrounds-117941473.jpg') no-repeat center center fixed;
+    background-size: cover;
     margin: 0;
     padding: 0;
 }
